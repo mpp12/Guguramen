@@ -1,0 +1,32 @@
+/************************** TAG SELECTORS ****************************/
+
+h1 {
+    text-align: center;
+}
+
+img {
+    max-width: 30%;
+    height: auto;
+  }
+
+body {
+    background-color: rgb(243, 246, 250);;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+  
+/************************* CLASS SELECTORS ***************************/
+
+
+.maintitle {
+    color:darkslategray
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  
+/*************************** ID SELECTORS ****************************/
