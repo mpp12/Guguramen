@@ -1,7 +1,12 @@
 /************************** TAG SELECTORS ****************************/
 
+html {
+  background-color: bisque;
+}
+
 h1 {
     text-align: center;
+    color: #38302e;
 }
 
 
@@ -11,17 +16,24 @@ img {
   }
 
 body {
-    background-color: rgb(243, 246, 250);;
+    background-color: rgb(248, 250, 243);
+    border: solid;
+    border-radius: 20px;
     font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 15px;
+    box-shadow: 10px 10px 10px 1px rgba(0, 0, 0, 0.2);
+    width: 80%;
+
 }
 
   
 /************************* CLASS SELECTORS ***************************/
 
 
-.maintitle {
-    color:darkslategray
-}
+
 
 .center {
     display: block;
@@ -29,5 +41,9 @@ body {
     margin-right: auto;
     width: 50%;
   }
-  
+
+.rika_gifs {
+  max-width: 70%;
+  height: auto;
+}
 /*************************** ID SELECTORS ****************************/
