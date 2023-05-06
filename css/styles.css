@@ -1,12 +1,13 @@
 /************************** TAG SELECTORS ****************************/
 
 html {
-  background-color: bisque;
+  background: bisque;
 }
 
 h1 {
     text-align: center;
     color: #38302e;
+    font-family: 'Sigmar', cursive;
 }
 
 
@@ -16,7 +17,7 @@ img {
   }
 
 body {
-    background-color: rgb(248, 250, 243);
+    background: rgb(248, 250, 243);
     border: solid;
     border-radius: 20px;
     font-family: Arial, Helvetica, sans-serif;
